@@ -38,7 +38,7 @@ export default function GallerySection() {
                 <Carousel activeIndex={index} onSelect={handleSelect} className='FM-gallery-slider mt-5 h-100'>
                     {GalleryData.map((e,index) => {
                         return (
-                            <Carousel.Item key={index} className='FM-gallery-img d-lg-inline-block position-relative me-0'>
+                            <Carousel.Item key={index} className='FM-gallery-img d-lg-inline-block position-relative'>
                                 <Carousel.Caption className='text-dark position-relative start-0 bottom-0'>
                                     <img
                                         className="img-fluid mb-5 p-3"
