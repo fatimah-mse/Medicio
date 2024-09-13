@@ -55,7 +55,7 @@ export default function MedicioNav() {
                             )
                         })}
                     </Nav>
-                    <Toast show={show} onClose={toggleShow} className='mt-4 position-absolute start-50 top-100 translate-middle'>
+                    <Toast show={show} onClose={toggleShow} className='mt-4 position-absolute start-50 top-50 top-lg-100 translate-middle'>
                         <Toast.Header>
                             <strong className="me-auto">Bootstrap</strong>
                             <small>11 mins ago</small>
