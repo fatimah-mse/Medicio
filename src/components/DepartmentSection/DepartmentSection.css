@@ -1,0 +1,6 @@
+.FM-active {
+    color: var(--trkwaz-color);
+}
+.FM-department-filter {
+    min-height: 300px;
+}

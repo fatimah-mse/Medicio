@@ -1,0 +1,17 @@
+.FM-normal-nav {
+    top: 40px;
+}
+.FM-nav-scroll {
+    background-color: var(--trkwaz-color) !important;
+}
+.FM-nav-logo{
+    width: 150px;
+}
+.light {
+    color: white;
+}
+@media screen and (max-width:992px) {
+    .FM-sidebar-scroll  {
+        background-color: var(--trkwaz-color);
+    } 
+}

@@ -1,0 +1,23 @@
+.FM-hero {
+    height: calc(100vh - 106px);
+    margin-top: 66px;
+}
+
+.FM-hero img {
+    height: calc(100vh - 106px);
+    object-fit: cover;
+}
+
+.FM-carousel-content {
+    height: max-content;
+    border-top-color: var(--trkwaz-color) !important;
+    background-color: #ffffffd0;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    border-radius: 50%;
+    padding: 20px;
+    filter: none !important;
+    background-color: var(--trkwaz-color) !important;
+}

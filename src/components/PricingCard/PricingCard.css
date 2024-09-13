@@ -1,0 +1,9 @@
+.FM-advanced {
+    transform: rotate(49deg);
+    top: 30px;
+    right: -52px;
+    background-color: var(--trkwaz-color);
+}
+.FM-title-bg-trkwaz {
+    background-color: var(--trkwaz-color);
+}

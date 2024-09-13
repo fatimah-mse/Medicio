@@ -1,0 +1,22 @@
+.FM-testimonials-slide {
+    width: 32%;
+}
+.FM-slide-desc {
+    min-height: 200px;
+}
+.FM-testimonials-slider .carousel-control-prev,
+.FM-testimonials-slider .carousel-control-next {
+    display: none;
+}
+.FM-testimonials-slider .FM-img {
+    transform: translate(-90px, -50px);
+}
+.FM-testimonials-slider .carousel-inner {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:992px){
+    .FM-testimonials-slide {
+        width: 100% !important;
+    }
+}
