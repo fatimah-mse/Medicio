@@ -9,7 +9,7 @@ export default function MedicioFooter() {
         <footer className='FM-footer py-5'>
             <Container>
                 <Row className='pb-4 border-bottom'>
-                    <Col sm={12} md={6} lg={3}>
+                    <Col sm={12} md={6} lg={3} className='mb-5'>
                         <h4 className='mb-5'>Medicio</h4>
                         <p>A108 Adam Street New York, NY 535022</p>
                         <p><strong>Phone: </strong>+963 981 944 215</p>
