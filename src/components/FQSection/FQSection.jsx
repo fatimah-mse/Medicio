@@ -16,8 +16,8 @@ export default function FQSection() {
                 />
                 {AccordionData.map((e,index) => {
                     return (
-                        <Accordion className='my-3'>
-                            <Accordion.Item className='w-75 mx-auto rounded border-2' eventKey={index}>
+                        <Accordion className='my-3 w-100 w-lg-75 mx-auto rounded border-2'>
+                            <Accordion.Item eventKey={index}>
                                 <Accordion.Header>{e.title}</Accordion.Header>
                                 <Accordion.Body>{e.des}</Accordion.Body>
                             </Accordion.Item>
