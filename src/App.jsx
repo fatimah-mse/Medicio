@@ -9,8 +9,8 @@ import ServicesSection from './components/ServicesSection/ServicesSection'
 import ApponitmentSection from './components/ApponitmentSection/ApponitmentSection'
 import DepartmentSection from './components/DepartmentSection/DepartmentSection'
 import DoctorsSection from './components/DoctorsSection/DoctorsSection'
-import TestimonialsSection from './components/TestimonialsSection/TestimonialsSection'
-import GallerySection from './components/GallerySection/GallerySection'
+// import TestimonialsSection from './components/TestimonialsSection/TestimonialsSection'
+// import GallerySection from './components/GallerySection/GallerySection'
 import PricingSection from './components/PricingSection/PricingSection'
 import FQSection from './components/FQSection/FQSection'
 import ContactSection from './components/ContactSection/ContactSection'
@@ -29,9 +29,9 @@ function App() {
       <ServicesSection />
       <ApponitmentSection />
       <DepartmentSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <DoctorsSection />
-      <GallerySection />
+      {/* <GallerySection /> */}
       <PricingSection />
       <FQSection />
       <ContactSection />
